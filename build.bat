@@ -1,0 +1,1 @@
+@clang++ dafi.cpp -o dafi.exe -luser32 -ld2d1 -lole32 -ldwrite -lshell32 -lcomdlg32
