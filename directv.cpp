@@ -322,6 +322,9 @@ void DirectV::initD2D()
 		throw DirectVException("Failed to create D2D render target.", hr);
 	}
 
+	// renderTarget->SetAntialiasMode(D2D1_ANTIALIAS_MODE_ALIASED);
+	// renderTarget->SetTextAntialiasMode(D2D1_TEXT_ANTIALIAS_MODE_ALIASED);
+
 	wicFactory = nullptr;
 	hr = CoCreateInstance(
 		CLSID_WICImagingFactory,
